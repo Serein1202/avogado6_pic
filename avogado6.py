@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-url = "https://www.avogado6.com"  # 将 example.com 替换成你要爬取的网站
+url = "https://www.avogado6.com/diary2025"  # 将 example.com 替换成你要爬取的网站
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
